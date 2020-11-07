@@ -14,7 +14,7 @@ resource "aws_db_instance" "my_db" {
   parameter_group_name   = aws_db_parameter_group.first.name
   skip_final_snapshot    = true
   publicly_accessible    = true
-  deletion_protection    = true
+  deletion_protection    = false
   maintenance_window     = "Mon:02:00-Mon:02:30"
   backup_retention_period= 7
   max_allocated_storage  = 100

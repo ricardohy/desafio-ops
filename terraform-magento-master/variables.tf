@@ -12,7 +12,8 @@ variable "region" {
 }
 
 variable "ami" {
-  default = "ami-07efac79022b86107"
+  #default = "ami-07efac79022b86107"
+  default = "ami-0e82959d4ed12de3f"
 }
 
 variable "key_name" {
